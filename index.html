@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade while</title>
+</head>
+<body>
+     <center>
+        <h1>AULA WHILE</h1>
+
+        <script>
+            //Criar variáveis
+            //Tipo texto - STRING
+            //Tipo inteiro - INT
+            //Tipo real - FLOAT
+            while (true) {
+            var usuario = prompt ("Digite o nomde da escola")
+            var senha = parseInt(prompt("Digite o seu número de matrícula"))
+
+            if(usuario == "SENAI" && senha == 2025999) {
+                document.write ("Acesso LIBERADO - Seja bem-vindo!")
+                break;
+            }else {
+                alert ("Usuário ou senha errados! Tente novamente")
+            }
+        }
+        </script>
+    </center>
+</body>
+</html>
